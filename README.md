@@ -1,75 +1,130 @@
-# React + TypeScript + Vite
+# Eliseo Canales — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal developer portfolio showcasing projects across Artificial Intelligence, Data Analytics, Machine Learning, Full-Stack Development, Backend Engineering, and Cybersecurity.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I’m Eliseo Canales, an Artificial Intelligence and Data Science student focused on building practical technical solutions.
 
-## React Compiler
+My goal is to connect different areas of technology rather than treating them as isolated disciplines — from analyzing data and creating predictive models to developing APIs, full-stack applications, and secure systems.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Featured Projects
 
-## Expanding the ESLint configuration
+### Retail Sales Analytics Dashboard
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+End-to-end retail analytics project featuring data processing, SQL analysis, KPIs, Excel, Power BI, DAX, and Streamlit.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+**Technologies:** Python, SQL, Pandas, Excel, Power BI, DAX, Streamlit
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Customer Churn ML
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Machine learning classification project for predicting customer churn using feature engineering, model comparison, evaluation metrics, and an interactive Streamlit interface.
 
+**Technologies:** Python, Pandas, scikit-learn, Machine Learning, Streamlit
+
+### Pharmacy Management System
+
+Full-stack pharmacy management application supporting inventory, products, categories, suppliers, stock monitoring, search, and filtering.
+
+**Technologies:** React, TypeScript, FastAPI, MySQL, Python
+
+### Secure API Lab
+
+Defensive cybersecurity project focused on API authentication, authorization, password hashing, JWT, security headers, rate limiting, and automated security testing.
+
+**Technologies:** Python, FastAPI, SQLAlchemy, JWT, Argon2, pytest
+
+### AI Code Review Assistant
+
+Python static code analysis application designed to identify risky patterns, maintainability issues, security concerns, and common programming mistakes.
+
+**Technologies:** Python, AST, Regex, Streamlit, pytest
+
+### Financial Manager
+
+Personal finance management application with transaction management, filtering, financial summaries, SQLite persistence, and automated tests.
+
+**Technologies:** Python, SQLite, pytest
+
+## Tech Stack
+
+- Python
+- SQL
+- FastAPI
+- React
+- TypeScript
+- Pandas
+- Power BI
+- Machine Learning
+- Data Analytics
+- Cybersecurity
+- Git and GitHub
+
+## Portfolio Features
+
+- Responsive desktop, tablet, and mobile design
+- Futuristic HUD-inspired interface
+- Neon cyan and orange visual system
+- Interactive project cards
+- Real project screenshots
+- Animated interface elements
+- Sticky navigation
+- GitHub project links
+- CV access
+- Contact information
+- SEO and social metadata
+- Accessibility support for reduced motion
+
+## Built With
+
+- React
+- TypeScript
+- Vite
+- CSS
+- React Icons
+
+## Local Development
+
+Install dependencies:
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Start the development server:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm run dev
 ```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Contact
+
+**Eliseo Canales**
+
+Email: eliseoc.dev@gmail.com
+
+GitHub: https://github.com/eliseoc-dev
+
+LinkedIn: https://www.linkedin.com/in/eliseo-canales-m124447/
+
+## Status
+
+Portfolio version: **v1.0.0**
+
+Currently open to opportunities related to Data Analytics, Artificial Intelligence, Python, Backend Development, and other technical roles.
+
+---
+
+© 2026 Eliseo Canales. All rights reserved.
