@@ -1,0 +1,30 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+>
+  <rect
+    width="64"
+    height="64"
+    rx="8"
+    fill="#02070c"
+  />
+
+  <path
+    d="M10 10 H54 V16 H16 V48 H54 V54 H10 Z"
+    fill="none"
+    stroke="#4deaff"
+    stroke-width="3"
+  />
+
+  <text
+    x="32"
+    y="39"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="21"
+    font-weight="700"
+    fill="#8ffcff"
+  >
+    EC
+  </text>
+</svg>

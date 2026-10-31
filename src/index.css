@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700;800&display=swap");
+
+:root {
+  font-family: "Chakra Petch", sans-serif;
+  color: #eafcff;
+  background: #02070c;
+
+  --cyan: #4deaff;
+  --cyan-strong: #00dcff;
+  --cyan-soft: #8ff5ff;
+
+  --orange: #ff8a2b;
+  --orange-soft: #ffae68;
+
+  --white: #f4fcff;
+
+  --dark: #02070c;
+  --dark-blue: #04131d;
+  --panel: rgba(5, 22, 32, 0.65);
+
+  --line: rgba(77, 234, 255, 0.42);
+  --line-soft: rgba(77, 234, 255, 0.16);
+
+  --cyan-glow:
+    0 0 6px rgba(77, 234, 255, 0.8),
+    0 0 18px rgba(77, 234, 255, 0.35);
+
+  --orange-glow:
+    0 0 7px rgba(255, 138, 43, 0.8),
+    0 0 18px rgba(255, 138, 43, 0.28);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #02070c;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      circle at 50% -10%,
+      rgba(0, 220, 255, 0.13),
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 95% 40%,
+      rgba(255, 138, 43, 0.07),
+      transparent 25%
+    ),
+    linear-gradient(180deg, #05111a, #02070c 45%, #010407);
+  overflow-x: hidden;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 10000;
+
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 3px,
+    rgba(125, 243, 255, 0.012) 4px
+  );
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+::selection {
+  color: #001015;
+  background: var(--cyan);
+}
